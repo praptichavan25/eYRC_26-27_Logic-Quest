@@ -10,7 +10,8 @@ module controller (
     output       MemWrite,
     output       PCSrc, ALUSrc,
     output       RegWrite, Jump,
-    output [1:0] ImmSrc,
+    output [2:0] ImmSrc,
+    output        ALUSrcA,
     output [2:0] ALUControl
 );
 
@@ -18,7 +19,7 @@ wire [1:0] ALUOp;
 wire       Branch;
 
 main_decoder    md (op, ResultSrc, MemWrite, Branch,
-                    ALUSrc, RegWrite, Jump, ImmSrc, ALUOp);
+                    ALUSrc, RegWrite, Jump, ImmSrc, ALUSrcA, ALUOp);
 
 alu_decoder     ad (op[5], funct3, funct7b5, ALUOp, ALUControl);
 
