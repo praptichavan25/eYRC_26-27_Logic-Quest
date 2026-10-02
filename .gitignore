@@ -1,12 +1,25 @@
-# Quartus generated files
-**/db/
-**/incremental_db/
-**/output_files/
+﻿# Quartus workspace/generated files
+*.qws
+db/
+incremental_db/
+work/
+*.sof
+*.pof
+*.jdi
+*.summary
+*.pin
+*.rpt
 
 # ModelSim generated files
-**/work/
-**/transcript
-**/*.wlf
+**/simulation/modelsim/rtl_work/
+**/simulation/modelsim/*.wlf
+**/simulation/modelsim/msim_transcript
+**/simulation/modelsim/transcript
+**/simulation/modelsim/*.do.bak*
 
-# Simulation result files
-**/results.txt
+# Quartus/ModelSim temporary compilation database
+**/code/work/
+
+# Task 1C submission package
+Task_1/Task_1C/lq_2839_task1c.zip
+Task_1/Task_1C/lq_2839_task1c/

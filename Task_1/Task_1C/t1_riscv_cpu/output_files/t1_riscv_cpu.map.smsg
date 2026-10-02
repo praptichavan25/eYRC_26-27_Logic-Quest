@@ -1,0 +1,2 @@
+Warning (10273): Verilog HDL warning at imm_extend.v(37): extended using "x" or "z" File: C:/Users/admin/Desktop/eYRC_26-27_Logic-Quest/Task_1/Task_1C/t1_riscv_cpu/code/components/imm_extend.v Line: 37
+Warning (10268): Verilog HDL information at alu.v(11): always construct contains both blocking and non-blocking assignments File: C:/Users/admin/Desktop/eYRC_26-27_Logic-Quest/Task_1/Task_1C/t1_riscv_cpu/code/components/alu.v Line: 11
